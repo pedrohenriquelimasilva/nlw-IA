@@ -1,27 +1,66 @@
-# React + TypeScript + Vite
+# Upload AI - web site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#-projeto">Project</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-use">How to use</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#common-mistakes">Common mistakes</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project-vision">Project vision</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-Currently, two official plugins are available:
+## 💻 Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application developed in NLW AI is a title and description generator for YouTube videos. With the help of artificial intelligence, this tool provides creative and engaging suggestions to assist content creators in maximizing the reach and engagement of their videos.
 
-## Expanding the ESLint configuration
+When using the application, users will have access to a wide range of title and description options, customized according to the video's theme and relevant keywords. These suggestions are generated based on advanced algorithms that analyze YouTube data, search trends, and audience preferences.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Technologies
 
-- Configure the top-level `parserOptions` property like this:
+This project was developed with the following technologies:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- JavaScript
+- TypeScript
+- React
+- Tailwind CSS
+- Context API
+- Fastify
+- Prisma
+- API OpenAI
+- FFmpeg
+- Webassembly
+
+## How to use?
+
+1. Download this repository and with your terminal, enter the directory
+
+```
+git clone SSH or HTTP
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Select the folder you want to use first
+
+```
+cd folder
+```
+
+3. Run to install the dependencies
+
+```
+npm install OR yarn
+```
+
+4. And to start the application, run the command
+
+```
+npm dev OR yarn dev in front-end and back-end
+```
+
+## Common mistakes
+
+1. Check if your node is on version 16.8 or node lts
+
+# Project vision
+
+<img src='./public/home.PNG' width='100%'/>
+
+<p align="center">Made by Pedro Henrique Lima</p>
